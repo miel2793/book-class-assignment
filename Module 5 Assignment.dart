@@ -50,7 +50,8 @@ class Book
   }
   getBookAge()
   {
-    int current_year=2024;
+    int current_year=DateTime.now().year;
+;
     return current_year-publicationYear;
   }
 }
